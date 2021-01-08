@@ -6,6 +6,5 @@ In anticipation of this problem, we spent the past several days taking photos of
 Even though JPEGs are more complicated than BMPs, JPEGs have “signatures,” patterns of bytes that can distinguish them from other file formats. Specifically, the first three bytes of JPEGs are
 ```
 0xff 0xd8 0xff
-
 ```
 from first byte to third byte, left to right. The fourth byte, meanwhile, is either ```0xe0```
